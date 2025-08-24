@@ -1,0 +1,165 @@
+.Header_Body {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.Header_Wrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.Header_Wrapper > h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Header_Wrapper > h3 > span {
+  color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.right_Header_side {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.Mobile_Nav {
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  height: 70vh;
+  background: #000000ad;
+  backdrop-filter: blur(20px);
+}
+
+nav {
+  width: 35%;
+}
+
+nav > ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav > ul > li {
+  list-style: none;
+  font-size: 18px;
+  width: 35%;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 245ms ease-in-out;
+  transform: scale(1);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav > ul > li:hover {
+  background: rgba(199, 199, 199, 0.616);
+  transform: scale(0.8);
+}
+
+.Profile_with_Icon {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 23px;
+}
+
+.icon_with_count {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon_Count {
+  background: red;
+  font-size: 17px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Menu_icon {
+  display: none;
+}
+
+.Drop_Show_Body {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top: 100%;
+  border-radius: 5px;
+}
+
+.Search_body_show {
+  width: 100%;
+  height: 50px;
+  background: red;
+  position: absolute;
+  top: 100%;
+  border-radius: 5px;
+}
+
+.profil {
+  position: relative;
+}
+
+.Show_Profile_Drop {
+  position: absolute;
+  top: 100%;
+  right: 65px;
+  width: 30%;
+  height: 15vh;
+  background: #000;
+}
+
+@media screen and (max-width: 900px) {
+  .Header_Wrapper {
+    width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .right_Header_side {
+    width: 50%;
+  }
+  .Profile_with_Icon {
+    width: 100%;
+  }
+  .Menu_icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 476px) {
+}
+@media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 320px) {
+}

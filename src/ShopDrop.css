@@ -1,0 +1,19 @@
+.menu {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  width: 200px;
+  align-items: center;
+  margin-top: -30px;
+  height: 50px;
+  border: 5px solid black;
+  background-color: grey;
+}
+
+.menu li {
+  list-style: none;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 200;
+}

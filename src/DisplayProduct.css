@@ -1,0 +1,9 @@
+.card_wrapper {
+  width: 100%;
+  height: max-content;
+  background-color: aqua;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
